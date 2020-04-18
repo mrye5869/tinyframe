@@ -5,12 +5,16 @@
 
 use og\facade\Env;
 
-include_once Env::get('root_path').'data/config.php';
+if(is_file(Env::get('root_path').'data/config.php')) {
+    include_once Env::get('root_path').'data/config.php';
+} else {
+    $config = false;
+}
 
-return [
+$database = [
     'type'     => 'mysql',
     // 主机地址
-    'hostname' => $config['db']['master']['host'],
+    'hostname' => '',
     // 用户名
     'username' => $config['db']['master']['username'],
     // 数据库名
