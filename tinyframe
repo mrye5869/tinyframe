@@ -2,7 +2,7 @@
 <?php
 
 include_once 'vendor/autoload.php';
-
+//定义微擎变量
 define('IN_IA', true);
 
 /**

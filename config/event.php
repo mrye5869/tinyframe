@@ -15,6 +15,7 @@ return [
     ],
     'listen'  =>    [
         // 更多事件监听
+        'PayResult'  => [PayResult::class],
     ],
     'subscribe'    =>    [
         // 更多事件订阅
