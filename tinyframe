@@ -9,8 +9,6 @@ define('IN_IA', true);
  * 创建console对象
  * @var $app \og\http\App
  */
-
-
 $app = og\http\Container::getInstance()->make(og\http\App::class,
     [
         __DIR__.'/',

@@ -1,5 +1,6 @@
 .svn
 .idea
+.git
 runtime
 vendor
 /composer.lock

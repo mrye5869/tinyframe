@@ -3,6 +3,8 @@
 // | 控制台配置
 // +----------------------------------------------------------------------
 
+namespace app\command;
+
 use og\facade\Env;
 
 return [
@@ -11,5 +13,6 @@ return [
     'create_path'   =>  Env::get('app_path').'command',
     'namespace'     => 'app\\command',
     'commands'      => [
+
     ]
 ];
