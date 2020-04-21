@@ -14,7 +14,7 @@ if(is_file(Env::get('root_path').'data/config.php')) {
 $database = [
     'type'     => 'mysql',
     // 主机地址
-    'hostname' => '',
+    'hostname' => $config['db']['master']['host'],
     // 用户名
     'username' => $config['db']['master']['username'],
     // 数据库名
@@ -22,7 +22,7 @@ $database = [
     //
     'password' => $config['db']['master']['password'],
     // 数据库编码默认采用utf8
-    'charset'  => 'utf8',
+    'charset'  => $config['db']['master']['charset'] ,
     // 数据库表前缀
     'prefix'   => $config['db']['master']['tablepre'],
     // 数据库连接参数

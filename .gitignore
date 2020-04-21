@@ -12,3 +12,4 @@ module.php
 processor.php
 receiver.php
 site.php
+wxapp.php
