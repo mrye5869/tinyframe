@@ -3,6 +3,7 @@
 .git
 runtime
 vendor
+src
 /composer.lock
 .DS_Store
 composer.lock

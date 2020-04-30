@@ -34,4 +34,9 @@ return [
         //发送错误时指向的模板文件，一般为404界面
         'show_error_tpl'    => '',
     ],
+    //上传测试配置
+    'upload'    => [
+        'root_path' => null,
+        'harm_type' => [],
+    ],
 ];
