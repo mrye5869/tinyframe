@@ -56,3 +56,4 @@ $database = [
 ];
 
 
+return $database;
