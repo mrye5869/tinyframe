@@ -26,7 +26,7 @@
 
 ## 文档
 
-[[**中文文档**]](https://www.kancloud.cn/caike_/wq_frame/1483541)
+[[**中文文档**]](https://www.kancloud.cn/yhl18/wq_frame/1483541)
 
 
 ## 环境要求
