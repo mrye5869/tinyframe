@@ -4,7 +4,7 @@
 runtime
 vendor
 src
-/composer.lock
+composer.lock
 .DS_Store
 composer.lock
 base.php
